@@ -1,0 +1,32 @@
+.title {
+  color: blue;
+  font-size: 14px;
+}
+#gallery {
+  display: flex;
+}
+
+.link {
+  list-style: none;
+}
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.galleryIm {
+  display: block;
+  width: 150px;
+  height: 100px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
