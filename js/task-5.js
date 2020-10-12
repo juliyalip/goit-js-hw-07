@@ -7,3 +7,4 @@ form.addEventListener('input', onInputChange);
 function onInputChange() {
   hello.textContent = form.value.length > 0 ? form.value : 'незнакомец';
 }
+
