@@ -1,0 +1,38 @@
+:root{
+--font-family: "Montserrat", sans-serif;
+--border-color: #808080;
+--primary-background:#fafafa;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-background);
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

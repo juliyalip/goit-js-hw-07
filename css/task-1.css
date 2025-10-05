@@ -1,0 +1,31 @@
+#categories {
+  max-width: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#categories .item {
+  width: 100%;
+  background-color: #f6f6fe;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.categories-title {
+  margin: 0 0 16px 0;
+}
+
+.sub-category-list li {
+  border: 1px solid var(--border-color);
+  background-color: var(--primary-background);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}

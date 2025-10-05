@@ -1,0 +1,25 @@
+#controls{
+width: 486px;
+padding: 32px;
+background-color: #f6f6fe;
+border-radius: 8px;
+margin-bottom: 12px;
+}
+
+#boxes{
+    padding: 32px;
+background-color: #f6f6fe;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+#controls button{
+    width: 120px;
+    height: 40px;
+}
+
+#controls input{
+    width: 150px;
+    height: 40px;
+}
