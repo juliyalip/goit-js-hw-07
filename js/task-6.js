@@ -18,8 +18,9 @@ function onCreate() {
         alert("Please enter a number between 1 and 100")
         return
     }
-    destroyBoxes()
-    createBoxes(amount)
+    destroyBoxes();
+    createBoxes(amount);
+    inputEl.value = "";
 }
 
 function destroyBoxes() {
@@ -36,7 +37,7 @@ function createBoxes(amount) {
         box.style.height = `${size}px`;
         box.style.backgroundColor = getRandomHexColor();
         box.style.margin = "4px"
-        box.style.borderradius = "4px";
+        box.style.borderRadius = "4px";
         fragment.append(box);
         size += 10
     }
